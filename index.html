@@ -1,231 +1,334 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asesoría Independiente en Reparación de Techos | NYC/NJ</title>
-    <meta name="description" content="Asesoría independiente en reparación de techos para propietarios en NYC/NJ. Diagnóstico técnico, estimación realista y protección contra sobrecostos.">
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Premium service-based sales framework for roofing professionals, consultants, and inspectors.">
+    <title>Service-Based Sales Framework | Roofing Professionals</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <!-- Fixed CTA Bar -->
-    <div class="fixed-cta">
-        <div class="fixed-cta-content">
-            <h3>🛡️ Asesoría independiente en reparación de techos</h3>
-            <a href="#contact" class="btn">Agendar Consulta de Techo</a>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">Roofing Framework</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
-    </div>
+    </nav>
 
     <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Protección, claridad y guía experta para reparar tu techo sin estafas</h1>
-            <p class="hero-subtitle">Recibe un diagnóstico claro, una estimación realista del costo y un plan paso a paso para reparar tu techo con seguridad y transparencia.</p>
-            
-            <div class="proof-badges">
-                <div class="proof-badge">
-                    <span class="proof-badge-number">+20</span>
-                    <span class="proof-badge-text">Evaluaciones reales<br>en roofing (NYC/NJ)</span>
-                </div>
-                <div class="proof-badge">
-                    <span class="proof-badge-number">5</span>
-                    <span class="proof-badge-text">Contratistas comparados<br>en cada Soft-Quote</span>
-                </div>
-                <div class="proof-badge">
-                    <span class="proof-badge-number">100%</span>
-                    <span class="proof-badge-text">Independiente<br>No vendo reparaciones</span>
-                </div>
-            </div>
-
-            <div class="guarantee-seal">
-                🛡️ No vendo reparaciones. Mi trabajo es proteger tu bolsillo.
-            </div>
-
-            <div style="margin-top: 3rem;">
-                <a href="#contact" class="btn">Agendar Consulta de Techo</a>
-            </div>
+    <section id="home">
+        <div class="hero-content fade-in">
+            <h1>Service-Based Sales Framework for Roofing Professionals</h1>
+            <p>A premium guide for roof repair consultants, inspectors, and architects</p>
+            <a href="#contact" class="cta-button">Get Started Today</a>
         </div>
     </section>
 
-    <!-- Soft Quote Section -->
-    <section class="soft-quote-section">
-        <div class="soft-quote-content">
-            <h2>El único sistema que te da una estimación realista ANTES de hablar con contratistas</h2>
-            <p>Comparo precios de 5 proveedores en tu área y establezco un rango justo — evitando estafas y sobreprecios.</p>
-            
-            <div class="price-comparison">
-                <div class="price-row price-inflated">
-                    <span>Cotizaciones infladas:</span>
-                    <span>$11,500 – $16,000</span>
-                </div>
-                <div class="price-row price-realistic">
-                    <span>Precio realista según mercado:</span>
-                    <span>$8,200 – $9,600</span>
-                </div>
+    <!-- About Section -->
+    <section id="about">
+        <h2 class="fade-in">About Our Framework</h2>
+        <p class="section-subtitle fade-in">Building trust through transparent, service-first methodology</p>
+        <div class="about-content">
+            <div class="about-text fade-in">
+                <h3>Calm, Confident, Transparent</h3>
+                <p>Our framework empowers roofing professionals to shift from transactional sales to consultative service. We believe in building relationships through education, integrity, and long-term value.</p>
+                <p>Designed specifically for roof repair consultants, inspectors, and architects who understand that quality service leads to sustainable business growth.</p>
+                <p>This comprehensive system provides you with proven methodologies, communication frameworks, and practical tools to elevate your professional practice.</p>
             </div>
-
-            <p style="font-size: 1.125rem; font-weight: 600; margin-top: 2rem;">
-                👉 Sin este paso, entras ciego a la conversación con contratistas.
-            </p>
+            <div class="about-image fade-in">
+                <p>Premium Roofing Expertise</p>
+            </div>
         </div>
     </section>
 
     <!-- Services Section -->
-    <section class="section">
-        <h2 class="section-title">Sistema Completo de Asesoría</h2>
-        <p class="section-subtitle">6 servicios integrados para proteger tu inversión en cada etapa del proceso</p>
-        
+    <section id="services">
+        <h2 class="fade-in">Our Services</h2>
+        <p class="section-subtitle fade-in">Comprehensive solutions for roofing professionals</p>
         <div class="services-grid">
-            <div class="service-card">
-                <span class="service-number">1</span>
-                <h3>Evaluación del estado del techo</h3>
-                <p>Diagnóstico técnico de filtraciones, membranas, drenaje, estructura y puntos críticos.</p>
+            <div class="service-card fade-in">
+                <div class="service-icon">🏠</div>
+                <h3>Consultation Framework</h3>
+                <p>Structured approach to client meetings that builds trust and demonstrates expertise through thorough assessment and transparent communication.</p>
             </div>
-
-            <div class="service-card">
-                <span class="service-number">2</span>
-                <h3>Soft Quoting (estimación basada en mercado)</h3>
-                <p>Rango realista usando los precios estándar de 5 contratistas de la zona.</p>
+            <div class="service-card fade-in">
+                <div class="service-icon">📋</div>
+                <h3>Inspection Protocols</h3>
+                <p>Detailed inspection methodologies that ensure nothing is missed, with clear documentation and client-friendly reporting systems.</p>
             </div>
-
-            <div class="service-card">
-                <span class="service-number">3</span>
-                <h3>Matriz de decisiones del propietario</h3>
-                <p>Reparación mínima, reparación completa, reemplazo parcial o total — explicado claro.</p>
+            <div class="service-card fade-in">
+                <div class="service-icon">💼</div>
+                <h3>Sales Training</h3>
+                <p>Transform your approach from pushy sales to consultative service with proven communication techniques and relationship-building strategies.</p>
             </div>
-
-            <div class="service-card">
-                <span class="service-number">4</span>
-                <h3>Revisión de cotizaciones y contratos</h3>
-                <p>Detecto sobreprecios, materiales dudosos o cláusulas riesgosas.</p>
+            <div class="service-card fade-in">
+                <div class="service-icon">📊</div>
+                <h3>Business Systems</h3>
+                <p>Streamlined operations, CRM integration, and workflow optimization to help you scale your roofing business efficiently.</p>
             </div>
-
-            <div class="service-card">
-                <span class="service-number">5</span>
-                <h3>Acompañamiento y supervisión independiente</h3>
-                <p>Guía durante el proyecto para evitar sorpresas o trabajos deficientes.</p>
+            <div class="service-card fade-in">
+                <div class="service-icon">🎓</div>
+                <h3>Ongoing Education</h3>
+                <p>Stay current with industry best practices, new materials, and emerging technologies through our continuous learning program.</p>
             </div>
-
-            <div class="service-card">
-                <span class="service-number">6</span>
-                <h3>Reporte técnico + recomendaciones finales</h3>
-                <p>Documento final con fotos, análisis y pasos futuros.</p>
+            <div class="service-card fade-in">
+                <div class="service-icon">🤝</div>
+                <h3>Community Support</h3>
+                <p>Join a network of like-minded professionals who share insights, challenges, and success stories in a supportive environment.</p>
             </div>
         </div>
     </section>
 
-    <!-- Cases Section -->
-    <section class="section" style="background: #f8fafc;">
-        <h2 class="section-title">Casos Reales</h2>
-        <p class="section-subtitle">Propietarios que tomaron decisiones inteligentes con asesoría independiente</p>
-        
-        <div class="cases-grid">
-            <div class="case-card">
-                <div class="case-location">🟦 Caso Queens</div>
-                <p class="case-result">Propietaria evitó pagar $4,000 extra en un reemplazo innecesario gracias al Soft-Quote + revisión de cotizaciones.</p>
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2 class="fade-in">Success Stories</h2>
+        <p class="section-subtitle fade-in">Real results from professionals using our framework</p>
+        <div class="portfolio-grid">
+            <div class="portfolio-item fade-in">
+                <div class="portfolio-overlay">
+                    <h3>45% Revenue Growth</h3>
+                    <p>Residential Consultant</p>
+                </div>
             </div>
-
-            <div class="case-card">
-                <div class="case-location">🟦 Caso Jersey City</div>
-                <p class="case-result">Detecté un punto de fuga que 3 contratistas no habían visto. Solución final costó 60% menos.</p>
+            <div class="portfolio-item fade-in">
+                <div class="portfolio-overlay">
+                    <h3>3x Referral Rate</h3>
+                    <p>Commercial Inspector</p>
+                </div>
             </div>
-
-            <div class="case-card">
-                <div class="case-location">🟦 Caso Brooklyn</div>
-                <p class="case-result">Pareja de compradores tomó la decisión correcta entre 3 cotizaciones con mi matriz de decisiones.</p>
+            <div class="portfolio-item fade-in">
+                <div class="portfolio-overlay">
+                    <h3>90% Client Retention</h3>
+                    <p>Independent Consultant</p>
+                </div>
+            </div>
+            <div class="portfolio-item fade-in">
+                <div class="portfolio-overlay">
+                    <h3>Doubled Close Rate</h3>
+                    <p>Roofing Architect</p>
+                </div>
+            </div>
+            <div class="portfolio-item fade-in">
+                <div class="portfolio-overlay">
+                    <h3>5-Star Reviews</h3>
+                    <p>Repair Specialist</p>
+                </div>
+            </div>
+            <div class="portfolio-item fade-in">
+                <div class="portfolio-overlay">
+                    <h3>Industry Recognition</h3>
+                    <p>Award-Winning Team</p>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Pricing Section -->
-    <section class="section pricing-section">
-        <h2 class="section-title">Inversión Transparente</h2>
-        <p class="section-subtitle">Precios claros, sin sorpresas ni compromisos ocultos</p>
-        
-        <div class="pricing-cards">
-            <div class="pricing-card">
-                <div class="pricing-title">Consulta + Soft-Quote</div>
-                <div class="pricing-amount">$120 – $250</div>
-                <p style="color: #64748b; margin-bottom: 2rem;">Paquete principal</p>
+    <section id="pricing">
+        <h2 class="fade-in">Investment Plans</h2>
+        <p class="section-subtitle fade-in">Choose the right level of support for your business</p>
+        <div class="pricing-grid">
+            <div class="pricing-card fade-in">
+                <h3>Foundation</h3>
+                <div class="price">$497</div>
+                <div class="price-period">One-time payment</div>
                 <ul class="pricing-features">
-                    <li>Diagnóstico técnico completo</li>
-                    <li>Estimación realista de mercado</li>
-                    <li>Plan de acción personalizado</li>
-                    <li>Reporte con fotos y análisis</li>
+                    <li>Complete framework guide</li>
+                    <li>Consultation templates</li>
+                    <li>Inspection checklists</li>
+                    <li>Email support</li>
+                    <li>Lifetime access</li>
                 </ul>
-                <a href="#contact" class="btn">Agendar Ahora</a>
+                <a href="#contact" class="cta-button">Get Started</a>
             </div>
-
-            <div class="pricing-card featured">
-                <div class="pricing-title">Acompañamiento Premium</div>
-                <div class="pricing-amount">$700 – $1,500</div>
-                <p style="color: #64748b; margin-bottom: 2rem;">Para proyectos mayores</p>
+            <div class="pricing-card featured fade-in">
+                <h3>Professional</h3>
+                <div class="price">$997</div>
+                <div class="price-period">One-time payment</div>
                 <ul class="pricing-features">
-                    <li>Todo lo del paquete básico</li>
-                    <li>Supervisión durante el proyecto</li>
-                    <li>Revisión de contratos y cotizaciones</li>
-                    <li>Acompañamiento hasta completar</li>
-                    <li>Garantía de satisfacción</li>
+                    <li>Everything in Foundation</li>
+                    <li>Video training modules</li>
+                    <li>Client communication scripts</li>
+                    <li>Monthly group coaching</li>
+                    <li>Private community access</li>
+                    <li>Priority support</li>
                 </ul>
-                <a href="#contact" class="btn">Consultar Proyecto</a>
+                <a href="#contact" class="cta-button">Most Popular</a>
             </div>
-        </div>
-
-        <div style="text-align: center; margin-top: 3rem;">
-            <p style="font-size: 1.125rem; color: #1e3a5f; font-weight: 600;">
-                🔹 100% Independiente: no vendo reparaciones<br>
-                🔹 Satisfacción garantizada o devolución
-            </p>
-        </div>
-    </section>
-
-    <!-- FAQ Section -->
-    <section class="section">
-        <h2 class="section-title">Preguntas Frecuentes</h2>
-        <div class="faq-section">
-            <div class="faq-item">
-                <div class="faq-question">¿Trabajas con techos residenciales o comerciales?</div>
-                <div class="faq-answer">Me especializo en techos residenciales (casas unifamiliares, dúplex, edificios pequeños) en NYC y Nueva Jersey. Para proyectos comerciales grandes, puedo referirte con especialistas de confianza.</div>
-            </div>
-
-            <div class="faq-item">
-                <div class="faq-question">¿Qué entregas en la consulta?</div>
-                <div class="faq-answer">Recibes un reporte técnico completo con fotos, diagnóstico del estado actual, estimación realista de costos (Soft-Quote), y un plan de acción claro con opciones de reparación o reemplazo.</div>
-            </div>
-
-            <div class="faq-item">
-                <div class="faq-question">¿Qué NO haces?</div>
-                <div class="faq-answer">No hago reparaciones ni vendo materiales. Mi único compromiso es contigo como propietario. Esto garantiza que mi análisis es 100% imparcial y protege tu inversión.</div>
-            </div>
-
-            <div class="faq-item">
-                <div class="faq-question">¿Qué pasa si ya tengo cotizaciones?</div>
-                <div class="faq-answer">Perfecto. Puedo revisar tus cotizaciones existentes, detectar sobreprecios o cláusulas problemáticas, y ayudarte a tomar la mejor decisión. Muchos clientes me contactan en esta etapa.</div>
-            </div>
-
-            <div class="faq-item">
-                <div class="faq-question">¿Cómo aseguras que el contratista sea confiable?</div>
-                <div class="faq-answer">Verifico licencias, seguros y referencias. También reviso contratos para protegerte de cláusulas riesgosas. Si eliges acompañamiento premium, superviso el trabajo en puntos críticos del proyecto.</div>
-            </div>
-
-            <div class="faq-item">
-                <div class="faq-question">¿Qué pasa si vivo lejos? ¿Haces consultas virtuales?</div>
-                <div class="faq-answer">Sí. Para evaluaciones iniciales y revisión de cotizaciones puedo trabajar virtualmente con fotos y videos. Para inspecciones técnicas en campo, cubro NYC y Nueva Jersey.</div>
+            <div class="pricing-card fade-in">
+                <h3>Enterprise</h3>
+                <div class="price">$2,497</div>
+                <div class="price-period">One-time payment</div>
+                <ul class="pricing-features">
+                    <li>Everything in Professional</li>
+                    <li>1-on-1 coaching sessions</li>
+                    <li>Custom implementation plan</li>
+                    <li>Team training options</li>
+                    <li>Annual strategy review</li>
+                    <li>VIP support line</li>
+                </ul>
+                <a href="#contact" class="cta-button">Contact Us</a>
             </div>
         </div>
     </section>
 
-    <!-- Final CTA -->
-    <section class="final-cta" id="contact">
-        <h2>¿Listo para proteger tu inversión?</h2>
-        <p>Agenda una consulta y recibe un diagnóstico claro, estimación realista y plan de acción sin compromisos.</p>
-        <a href="mailto:contact@roofingadvisory.com" class="btn" style="font-size: 1.125rem; padding: 1.25rem 3rem;">Agendar Consulta de Techo</a>
-        <p style="margin-top: 2rem; font-size: 0.875rem; color: #94a3b8;">
-            📧 Respuesta en menos de 24 horas<br>
-            📞 <a href="tel:+1-917-555-0100" style="color: #fbbf24; text-decoration: none;">(917) 555-0100</a> | 📱 <a href="https://wa.me/19175550100?text=Hola%2C%20necesito%20asesor%C3%ADa%20para%20mi%20techo" style="color: #10b981; text-decoration: none;">WhatsApp</a>
-        </p>
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <h2 class="fade-in">What Professionals Say</h2>
+        <p class="section-subtitle fade-in">Trusted by roofing experts nationwide</p>
+        <div class="testimonials-grid">
+            <div class="testimonial-card fade-in">
+                <p class="testimonial-text">"This framework completely transformed how I approach client consultations. My close rate doubled within 90 days, and clients actually thank me for being thorough and transparent."</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">JM</div>
+                    <div class="author-info">
+                        <h4>James Mitchell</h4>
+                        <p>Residential Roofing Consultant</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card fade-in">
+                <p class="testimonial-text">"As an inspector, credibility is everything. The inspection protocols and reporting templates have elevated my professional image and made me the go-to expert in my market."</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">SR</div>
+                    <div class="author-info">
+                        <h4>Sarah Rodriguez</h4>
+                        <p>Commercial Roof Inspector</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card fade-in">
+                <p class="testimonial-text">"I was skeptical about another 'sales system,' but this is different. It's about service and integrity. My referral business has tripled, and I sleep better at night."</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">DK</div>
+                    <div class="author-info">
+                        <h4>David Kim</h4>
+                        <p>Independent Roofing Consultant</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="fade-in">Get In Touch</h2>
+        <p class="section-subtitle fade-in">Ready to elevate your roofing practice? Let's talk.</p>
+        <div class="contact-container">
+            <form class="contact-form fade-in">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+            <div class="contact-info fade-in">
+                <div class="info-item">
+                    <div class="info-icon">📍</div>
+                    <div>
+                        <h4>Location</h4>
+                        <p>Serving Professionals Nationwide</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon">📧</div>
+                    <div>
+                        <h4>Email</h4>
+                        <p>info@roofingframework.com</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon">📞</div>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>(555) 123-4567</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon">⏰</div>
+                    <div>
+                        <h4>Business Hours</h4>
+                        <p>Mon - Fri: 9:00 AM - 6:00 PM EST</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="LinkedIn">in</a>
+                    <a href="#" class="social-link" aria-label="Facebook">f</a>
+                    <a href="#" class="social-link" aria-label="Instagram">ig</a>
+                    <a href="#" class="social-link" aria-label="YouTube">yt</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About</h3>
+                <p>Empowering roofing professionals with service-based frameworks that build trust, credibility, and sustainable business growth.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Case Studies</a></li>
+                    <li><a href="#">Downloads</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Roofing Framework. All rights reserved. | Designed for Professionals, By Professionals</p>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
